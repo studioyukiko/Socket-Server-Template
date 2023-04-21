@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'HKWVF';
+/*   src: url('./fonts/HKWInstallation-4VF.ttf') format('truetype'); */
+  src: url(https://cdn.glitch.global/934203b5-d830-4ff1-b7b5-5ee8b0f21a57/HKWInstallation-4VF.ttf?v=1681256042023) format('truetype');
+}
+
+body {
+    margin: 0;
+    display: flex;
+  
+    /* This centers our sketch horizontally. */
+    justify-content: center;
+  
+    /* This centers our sketch vertically. */
+    align-items: center;
+    /* background-color: rgb(255, 252, 221); */
+  }
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+} 
+
+.box {
+    position: absolute;
+    width: 2200;
+    height: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* z-index: -50; */
+   
+}
+
+.text {
+    font-family: 'HKWVF';
+    font-variation-settings: 'LEFT' 50, 'CENT' 50, 'RIGHT' 50;
+    font-weight: 400;
+    font-size: 350;
+    margin-top: 400;
+    color: rgb(0, 0, 0);
+    line-height: 1000px;
+}
+
+.noselect {
+-webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+        -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                supported by Chrome, Edge, Opera and Firefox */
+}
+
